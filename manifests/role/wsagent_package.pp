@@ -81,7 +81,7 @@ class dynatrace::role::wsagent_package (
     installer_file_url      => $installer_file_url,
     installer_script_name   => $installer_script_name,
     installer_path_part     => 'agent',
-    installer_path_detailed => "${installer_prefix_dir}/dynatrace/agent/conf/agentversion.${agent_name}",
+    installer_path_detailed => "",
     installer_owner         => $dynatrace_owner,
     installer_group         => $dynatrace_group,
     installer_cache_dir     => $installer_cache_dir
